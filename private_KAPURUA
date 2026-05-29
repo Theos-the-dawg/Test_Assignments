@@ -1,0 +1,157 @@
+KM-01-KT01  |  SYSTEMS ANALYSIS AND DESIGN
+TEST RESULTS
+Kapurura
+Section A	Section B	Section C	TOTAL
+16.5 / 20	30 / 36	5.25 / 12	51.75 / 68
+76%			MERIT
+
+SECTION A  —  Multiple Choice, Match & True/False
+
+Q1	Multiple Choice	/ 10	8
+
+#	Student Answer	Correct Answer	Mark	Note
+1.	Student: C	Correct: C	✓ 1	
+2.	Student: C	Correct: C	✓ 1	
+3.	Student: D	Correct: D	✓ 1	
+4.	Student: C	Correct: B	✗ 0	✗ Wrong answer selected
+5.	Student: B	Correct: B	✓ 1	
+6.	Student: C	Correct: C	✓ 1	
+7.	Student: C	Correct: D	✗ 0	✗ Wrong answer selected
+8.	Student: B	Correct: B	✓ 1	
+9.	Student: C	Correct: C	✓ 1	
+10.	Student: D	Correct: D	✓ 1	
+
+Q2	Match the Column	/ 6	6
+
+#	Answer	Result
+1.	✓ B	Correct ✓
+2.	✓ A	Correct ✓
+3.	✓ D	Correct ✓
+4.	✓ C	Correct ✓
+5.	✓ E	Correct ✓
+6.	✓ F	Correct ✓
+
+Q3	True or False	/ 4	2.5
+
+#	Student Answer	Marker's Comment	Mark
+1.	FALSE — defines WHAT the system must do	Correct. False correctly identified; correction accurate.	✓ 1
+2.	TRUE	Incorrect. Answer should be FALSE — a DFD shows data flow, not physical hardware layout.	✗ 0
+3.	TRUE	Correct.	✓ 1
+4.	FALSE — uses core system + subsystems communicating over network	FALSE correct, but correction describes Microkernel (core+plugins), not Microservices (independent services via APIs).	◑ 0.5
+
+SECTION A TOTAL	/ 20	16.5
+
+ 
+SECTION B  —  Explanation, Comparison & Application
+
+Q4	SDLC Phases	/ 12	11.5
+
+#	Phase	Marker's Comment	Mark
+1	Planning	Purpose, activity and deliverable all correctly stated. Well done.	✓ 2
+2	Analysis	Purpose accurate. Deliverable 'what the system does' is vague — a Requirements Spec is the expected deliverable.	◑ 1.5
+3	Design	Blueprint/architecture framing is excellent. Full marks.	✓ 2
+4	Development	Correctly identifies coding, unit testing and integration testing.	✓ 2
+5	Implementation	Rolling out to users and training accurately described.	✓ 2
+6	Maintenance	Bug fixing, features, improvements all mentioned.	✓ 2
+
+Q5	System Properties	/ 6	6
+
+#	Property	Marker's Comment	Mark
+1	Organization	Clear explanation + specific school example (admin, assigning lecturers, timetable). Full marks.	✓ 2
+2	Interaction	Communication between components explained well; school context applied.	✓ 2
+3	Central Objective	Main goal defined correctly; school example (punctuality, pass rate) is relevant.	✓ 2
+
+Q6	Requirements Types	/ 6	4.5
+
+Type	Student Answer	Comment	Mark
+Functional 1	Take in patient medical records, credentials and details	Valid functional requirement — describes a system action.	✓ 1
+Functional 2	Assign rightly experienced doctors to patients	Valid functional requirement.	✓ 1
+Non-Functional 1	Keeping patient records confidential from non-authorized staff	Security constraint — correctly classified as non-functional.	✓ 1
+Non-Functional 2	Ensuring nurses don't override/interfere with doctor's orders	This is access-control (functional), not non-functional performance quality. Partial credit.	◑ 0.5
+User Req 1	Being attended to on time	Valid user expectation.	✓ 1
+User Req 2	'given' (incomplete)	Answer incomplete — no mark awarded.	✗ 0
+
+Q7	Architecture & Scalability	/ 6	3.5
+
+7.1  Fault Tolerance  (3 marks)
+Item	Student Answer	Comment	Mark
+Definition	System's ability to keep working despite encountering issues that might cause it to fail	Definition is correct and complete.	✓ 1
+Mechanism	Microservices isolation — one component failing doesn't stop others (e.g. airtime vs deposits)	Valid mechanism; demonstrates isolation of failures.	✓ 1
+Specific tech	No mention of data replication, failover, or load balancers	A specific technical mechanism (e.g. server replication, failover) was expected for the 3rd mark.	✗ 0
+
+7.2  Client-Server vs Microservices  (3 marks)
+Item	Student Answer	Comment	Mark
+Client-Server description	Event-driven request-response system, real-time, synchronous	Captures request-response nature but incorrectly frames it as event-driven.	◑ 0.5
+Client-Server advantage	Real time feedback / constant responses	Acceptable advantage.	✓ 0.5
+Microservices description	Core system upon which other subsystems are dependant	This describes Microkernel, not Microservices. Microservices are INDEPENDENT, loosely-coupled services.	✗ 0
+Microservices advantage	Load balancing / resource sharing across the system	Load balancing is a valid advantage.	✓ 0.5
+
+Q8	System Documentation	/ 6	4.5
+
+Type	Audience (0.5)	Consequence (1)	Comment	/1.5
+Product Doc	Audience: END USERS
+→ 0/0.5	Consequence: Failure to properly understand what the product does
+→ 1/1	Audience is incorrect (should be developers & stakeholders). Consequence acceptable.	1
+Process Doc	Audience: Management
+→ 0.5/0.5	Consequence: Failure to understand how the system was made
+→ 1/1	Audience partially correct (project managers). Good consequence.	1.5
+User Doc	Audience: End Users
+→ 0.5/0.5	Consequence: Failure to use the system effectively
+→ 1/1	Correct audience and consequence.	1.5
+Technical Doc	Audience: Quality Assurance Analysts
+→ 0/0.5	Consequence: Failure to meet project specifications and requirements
+→ 0.5/1	Audience incorrect (developers & sys admins). Consequence is too vague — doesn't address maintainability.	0.5
+
+SECTION B TOTAL	/ 36	30
+
+ 
+SECTION C  —  Case Study & Diagram
+
+Q9	Feasibility Case Study	/ 7	5.25
+
+Sub-Q	Definition	Application	Mark
+9.1 Operational (1.5)	Def: Study of how the system fits into daily activities and if it integrates seamlessly
+→ 0.5	App: Portal must integrate into how the organisation works
+Application is vague. Expected: staff resistance, digital literacy challenges, need for training/helpdesk.
+→ 0.5	1
+9.2 Technical (1.5)	Def: Study of available skills, knowledge and technology required to create the system
+→ 0.5	App: Evaluate personnel skills, training needs, hardware and software requirements
+Excellent specific application.
+→ 1	1.5
+9.3 Economic (1.5)	Def: Study of return on investment and cost-benefit analysis
+→ 0.5	App: Cost savings: remote infrastructure reporting avoids deploying workers; video/photo evidence saves transport
+Outstanding application with a creative, specific example.
+→ 1	1.5
+9.4 Legal (1.5)	Def: Whether the system complies with country regulations
+→ 0.5	App: Must not violate tax bills or access unauthorised user information
+Application is too general. Specific legislation (e.g. POPIA, Municipal Finance Management Act) was expected.
+→ 0.5	1
+9.5 Cultural (1)	Def: Evaluation of whether the system fits societal norms and values
+→ 0.5	App: Portal must not violate culture or cause commotion
+Very thin application. Expected: digital divide, older residents, distrust of government portals.
+→ 0.25	0.75
+
+Q10	Data Flow Diagram	/ 5	0
+
+✗  Question 10 (DFD Diagram) was not attempted.
+
+SECTION C TOTAL	/ 12	5.25
+
+ 
+FINAL MARK SUMMARY  —  KAPURURA
+Q	Question	Max	Earned
+Q1	Multiple Choice	/ 10	8
+Q2	Match the Column	/ 6	6
+Q3	True or False	/ 4	2.5
+Q4	SDLC Phases	/ 12	11.5
+Q5	System Properties	/ 6	6
+Q6	Requirements Types	/ 6	4.5
+Q7	Architecture & Scalability	/ 6	3.5
+Q8	System Documentation	/ 6	4.5
+Q9	Feasibility Case Study	/ 7	5.25
+Q10	DFD Diagram	/ 5	0
+	GRAND TOTAL	/ 68	
+
+Percentage	Grade	Remarks
+76%	MERIT	Good work — WELL DONE PRIVATE!
+ 
