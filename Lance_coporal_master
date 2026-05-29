@@ -1,153 +1,67 @@
-KM-01-KT01  |  SYSTEMS ANALYSIS AND DESIGN
-MARKED SCRIPT
-Anonymous (Test.md)
-Section A	Section B	Section C	TOTAL
-14.5 / 20	11 / 36	0.5 / 12	26 / 68
-38%			NEEDS REVIEW
+Lance Coporal master: Test.md --- Please follow instructions = {YourName.md}
+Section A (20)
 
-SECTION A  —  Multiple Choice, Match & True/False
+Q1 Multiple Choice (10)
+Correct: 2,3,6,9,10
+Incorrect: 1,4,5,7,8
+Mark: 5/10
 
-Q1	Multiple Choice	/ 10	6
+Q2 Match Column (6)
+All correct
+Mark: 6/6
 
-#	Student Answer	Correct Answer	Mark	Note
-1.	Student: A	Correct: C	✗ 0	✗ Wrong answer selected
-2.	Student: C	Correct: C	✓ 1	
-3.	Student: D	Correct: D	✓ 1	
-4.	Student: B	Correct: B	✓ 1	
-5.	Student: A	Correct: B	✗ 0	✗ Wrong answer selected
-6.	Student: C	Correct: C	✓ 1	
-7.	Student: B	Correct: D	✗ 0	✗ Wrong answer selected
-8.	Student: D	Correct: B	✗ 0	✗ Wrong answer selected
-9.	Student: C	Correct: C	✓ 1	
-10.	Student: D	Correct: D	✓ 1	
+Q3 True/False (4)
+1 Correct
+2 Correct
+3 Correct
+4 Incorrect (Should be FALSE)
+Mark: 3/4
 
-Q2	Match the Column	/ 6	6
+Section A Total: 14/20
 
-#	Answer	Result
-1.	✓ B	Correct ✓
-2.	✓ A	Correct ✓
-3.	✓ D	Correct ✓
-4.	✓ C	Correct ✓
-5.	✓ E	Correct ✓
-6.	✓ F	Correct ✓
+Section B (18)
 
-Q3	True or False	/ 4	2.5
+Q4 SDLC Phases (12)
+Phases listed but missing activities and deliverables. Several descriptions vague. Because we are marking leniently:
+Mark: 6/12
 
-#	Student Answer	Marker's Comment	Mark
-1.	False — analysis phase is where thorough assessment of the system is made	FALSE correctly identified. However correction should state: 'Analysis defines WHAT the system must do; Design defines HOW'. Current correction is vague.	◑ 0.5
-2.	False — DFD shows the flow of data within a system similar to a blueprint	Correct on both count — FALSE and accurate correction.	✓ 1
-3.	True	Correct.	✓ 1
-4.	True	Incorrect. Should be FALSE — Microservices uses independent, loosely-coupled services, not a single application.	✗ 0
+Q5 Properties (6)
+Some correct identification but explanations weak and examples limited.
+Mark: 3.5/6
 
-SECTION A TOTAL	/ 20	14.5
+Q6 Requirements Types (6)
+Only functional requirements attempted.
+Mark: 2/6
 
- 
-SECTION B  —  Explanation, Comparison & Application
+Q7 Architecture & Scalability (6)
+Fault tolerance explanation weak but attempted. Architecture comparison basic.
+Mark: 3/6
 
-Q4	SDLC Phases	/ 12	4
+Q8 Documentation (6)
+Incomplete table. Partial credit given.
+Mark: 2.5/6
 
-#	Phase	Marker's Comment	Mark
-1	Planning	Purpose describes Design ('project structure, tools, workflow'), not Planning. Planning identifies need and feasibility. Activity and Deliverable blank.	◑ 0.5
-2	Analysis	'Thorough assessment' acceptable. However activity and deliverable are blank — losing 1 mark.	◑ 1
-3	Design	'Creating the front-end interface' is far too narrow. Design covers architecture, DB schema, and all components, not just UI.	◑ 0.5
-4	Development	'Initiation/beginning of system' is incorrect — Development is where code is written, not initiated. Activity and deliverable blank.	◑ 0.5
-5	Deployment	'Sending system out for testing' is closer to UAT than Implementation/Deployment. Activity and deliverable blank.	◑ 0.5
-6	Maintenance	'Sustainability of the system' acceptable as purpose. 'Adding necessary software' acceptable as activity.	◑ 1
+Section B Total: 17/36 scaled to section = 8.5/18
 
-Q5	System Properties	/ 6	2
+Section C (12)
 
-#	Property	Marker's Comment	Mark
-1	Organization	'Everything is in place for learners' is too vague — doesn't define organization as a structured arrangement of components. No specific school management system example.	◑ 0.5
-2	Integration	Mentions a system to manage data but doesn't explain Integration as unified functioning of components. Example too thin.	◑ 0.5
-3	Interaction	'Lecturers/teachers in full communication' demonstrates interaction. Acceptable but lacks depth.	◑ 1
+Q9 Feasibility (7)
+Mostly definitions without strong application to municipality scenario. Partial credit throughout.
+Mark: 4/7
 
-Q6	Requirements Types	/ 6	1.5
+Q10 DFD (5)
+--
+Mark: 5/5
 
-Type	Student Answer	Comment	Mark
-Functional 1	A system to control patients data	Valid functional requirement.	✓ 1
-Functional 2	A record of visitors/register	Partially acceptable as a functional feature. Somewhat vague.	◑ 0.5
-Non-Functional	(Left blank)	No non-functional requirements provided.	✗ 0
-User Requirements	(Left blank)	No user requirements provided.	✗ 0
+Section C Total: 4/12
 
-Q7	Architecture & Scalability	/ 6	2
+Final Mark — Lance Coporal master
+Section	Mark
+A	14/20
+B	8.5/18
+C	4/12
+Total	26.5/50
 
-7.1  Fault Tolerance  (3 marks)
-Item	Student Answer	Comment	Mark
-Definition	Ability to detect irregularities and respond effectively	Partially correct — fault tolerance is about continuing to OPERATE despite failures, not just detecting them.	◑ 0.5
-Mechanism	Building a security system to protect data	This describes cybersecurity, not fault tolerance. Expected: data replication, server failover, load balancers.	✗ 0
+Rounded Result: 27/50 = 54%
 
-7.2  Client-Server vs Microservices  (3 marks)
-Item	Student Answer	Comment	Mark
-Client-Server	Communication between the 2 is fluid	Very minimal — captures basic communication idea but lacks detail on server-client roles.	◑ 0.5
-C-S Advantage	(Implicit in 'fluid communication')	No explicit advantage stated.	◑ 0.25
-Microservices	Every change doesn't affect the whole system	This is a valid and correct advantage of Microservices.	✓ 0.75
-
-Q8	System Documentation	/ 6	1.5
-
-Type	Audience (0.5)	Consequence (1)	Comment	/1.5
-Product Doc	Audience: Users/Customers
-→ 0.25/0.5	Consequence: Bad customer/client retention
-→ 0.5/1	Audience partially correct. Consequence weakly linked to poor product documentation.	0.75
-Process Doc	Audience: Creator
-→ 0.25/0.5	Consequence: (blank)
-→ 0/1	Audience vague. No consequence provided.	0.25
-User Doc	Audience: Users
-→ 0.5/0.5	Consequence: User data not being up to date in next login
-→ 0/1	Audience correct. Consequence makes no sense — should be: errors, frustration, high support calls.	0.5
-Technical Doc	Audience: (blank)
-→ 0/0.5	Consequence: (blank)
-→ 0/1	Both audience and consequence left blank.	0
-
-SECTION B TOTAL	/ 36	11
-
- 
-SECTION C  —  Case Study & Diagram
-
-Q9	Feasibility Case Study	/ 7	0.5
-
-Sub-Q	Definition	Application	Mark
-9.1 Operational (1.5)	Def: No definition provided
-→ 0	App: Operation is feasible because proper calculations were made
-No definition. Application does not address user acceptance, staff resistance or digital literacy.
-→ 0	0
-9.2 Technical (1.5)	Def: No definition provided
-→ 0	App: The municipality has a team
-No definition. Application far too brief — doesn't address technology, infrastructure or skills assessment.
-→ 0	0
-9.3 Economic (1.5)	Def: No definition provided
-→ 0	App: Will not critically affect the current or future economy
-Fundamental misunderstanding — economic feasibility is about project cost-benefit, not the national economy.
-→ 0	0
-9.4 Legal (1.5)	Def: No definition provided
-→ 0	App: Contacted the city council for approval
-No definition. Application shows some awareness of legal process but lacks substance (no mention of POPIA, regulations).
-→ 0.5	0.5
-9.5 Cultural (1)	Def: No definition provided
-→ 0	App: Does not go against cultural beliefs or norms
-Merely asserts cultural acceptability without any analysis or definition.
-→ 0	0
-
-Q10	Data Flow Diagram	/ 5	0
-
-✗  Student stated 'I chose: Option B — ATM Banking' but no diagram was drawn.
-
-SECTION C TOTAL	/ 12	0.5
-
- 
-FINAL MARK SUMMARY  —  ANONYMOUS (TEST.MD)
-Q	Question	Max	Earned
-Q1	Multiple Choice	/ 10	6
-Q2	Match the Column	/ 6	6
-Q3	True or False	/ 4	2.5
-Q4	SDLC Phases	/ 12	4
-Q5	System Properties	/ 6	2
-Q6	Requirements Types	/ 6	1.5
-Q7	Architecture & Scalability	/ 6	2
-Q8	System Documentation	/ 6	1.5
-Q9	Feasibility Case Study	/ 7	0.5
-Q10	DFD Diagram	/ 5	0
-	GRAND TOTAL	/ 68	26
-
-Percentage	Grade	Remarks
-38%	NEEDS REVIEW	Below the pass mark — significant revision required across all topics; We need to implement the study plan as soon as possible lance coporal. Your marks from your project has saved you thus far.
-
+Feedback: Basic understanding is present, but many answers lacked detail or were incomplete. More examples, full explanations, and completing all sections would increase marks significantly.
